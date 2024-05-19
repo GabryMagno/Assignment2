@@ -64,7 +64,7 @@ public class IntegerToRomanTest
         assertEquals(converter.convert(1000),roman);
     }
 
-    //test casi particolari
+    //test di casi particolari
 
     @Test
     public void CasoParticolare4() throws ZeroException,NegativeNumberException,BiggerThan4000Exception{
