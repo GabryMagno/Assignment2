@@ -15,7 +15,7 @@ public class RomanPrinterTest
         }
         /**
          * Test singola lettera I
-         * @throws ZeroException,NegativeNumberException, BiggerThan4000Exception
+         * @throws ZeroException,NegativeNumberException,BiggerThan4000Exception
          */
         @Test
         public void test_I() throws ZeroException,NegativeNumberException, BiggerThan4000Exception{
@@ -24,7 +24,7 @@ public class RomanPrinterTest
         }
         /**
          * Test singola lettera V
-         * @throws ZeroException,NegativeNumberException, BiggerThan4000Exception
+         * @throws ZeroException,NegativeNumberException,BiggerThan4000Exception
          */
         @Test
         public void test_V() throws ZeroException,NegativeNumberException, BiggerThan4000Exception{
@@ -33,7 +33,7 @@ public class RomanPrinterTest
         }
         /**
          * Test singola lettera X
-         * @throws ZeroException,NegativeNumberException, BiggerThan4000Exception
+         * @throws ZeroException,NegativeNumberException,BiggerThan4000Exception
          */
         @Test
         public void test_X() throws ZeroException,NegativeNumberException, BiggerThan4000Exception {
@@ -42,16 +42,16 @@ public class RomanPrinterTest
         }
         /**
          * Test singola lettera L
-         * @throws ZeroException,NegativeNumberException, BiggerThan4000Exception
+         * @throws ZeroException,NegativeNumberException,BiggerThan4000Exception
          */
         @Test
-        public void test_L()  throws ZeroException,NegativeNumberException, BiggerThan4000Exception{
+        public void test_L()  throws ZeroException,NegativeNumberException,BiggerThan4000Exception{
             String l = "  _      \n | |     \n | |     \n | |     \n | |____ \n |______|\n";
             assertEquals(l, printer.print(50));
         }
         /**
          * Test singola lettera C
-         * @throws ZeroException,NegativeNumberException, BiggerThan4000Exception
+         * @throws ZeroException,NegativeNumberException,BiggerThan4000Exception
          */
         @Test
         public void test_C() throws ZeroException,NegativeNumberException, BiggerThan4000Exception {
@@ -60,16 +60,16 @@ public class RomanPrinterTest
         }
         /**
          * Test singola lettera D
-         * @throws ZeroException,NegativeNumberException, BiggerThan4000Exception
+         * @throws ZeroException,NegativeNumberException,BiggerThan4000Exception
          */
         @Test
-        public void test_D()throws ZeroException,NegativeNumberException, BiggerThan4000Exception {
+        public void test_D()throws ZeroException,NegativeNumberException,BiggerThan4000Exception {
             String d = "  _____  \n |  __ \\ \n | |  | |\n | |  | |\n | |__| |\n |_____/ \n";
             assertEquals(d, printer.print(500));
         }
         /**
          * Test singola lettera M
-         * @throws ZeroException,NegativeNumberException, BiggerThan4000Exception
+         * @throws ZeroException,NegativeNumberException,BiggerThan4000Exception
          */
         @Test
         public void test_M() throws ZeroException,NegativeNumberException, BiggerThan4000Exception{
@@ -79,7 +79,7 @@ public class RomanPrinterTest
 
         /**
          * Test numero 256
-         * @throws ZeroException,NegativeNumberException, BiggerThan4000Exception
+         * @throws ZeroException,NegativeNumberException,BiggerThan4000Exception
          */
         @Test
         public void testNumero_256() throws ZeroException,NegativeNumberException, BiggerThan4000Exception{
@@ -89,7 +89,7 @@ public class RomanPrinterTest
 
         /**
          * Test numero 94
-         * @throws ZeroException,NegativeNumberException, BiggerThan4000Exception
+         * @throws ZeroException,NegativeNumberException,BiggerThan4000Exception
          */
         @Test
         public void testNumero_94()  throws ZeroException,NegativeNumberException, BiggerThan4000Exception{
@@ -98,7 +98,7 @@ public class RomanPrinterTest
         }
         /**
          * Test numero 3999
-         * @throws ZeroException,NegativeNumberException, BiggerThan4000Exception
+         * @throws ZeroException,NegativeNumberException,BiggerThan4000Exception
          */
         @Test
         public void testNumeroLimite() throws ZeroException,NegativeNumberException, BiggerThan4000Exception  {
