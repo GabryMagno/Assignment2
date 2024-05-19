@@ -4,5 +4,6 @@
 ////////////////////////////////////////////////////////////////////
 package it.unipd.mtss;
 
-public class NegativeNumberException {
+public class NegativeNumberException extends Exception
+{
 }

@@ -4,5 +4,6 @@
 ////////////////////////////////////////////////////////////////////
 package it.unipd.mtss;
 
-public class BiggerThan4000Exception {
+public class BiggerThan4000Exception extends Exception
+{
 }

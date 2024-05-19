@@ -4,5 +4,6 @@
 ////////////////////////////////////////////////////////////////////
 package it.unipd.mtss;
 
-public class ZeroException extends Exception {
+public class ZeroException extends Exception
+{
 }
